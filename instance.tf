@@ -62,9 +62,9 @@ resource "aws_route_table" "nat_aws" {
         nat_gateway_id = "${aws_nat_gateway.nat.id}"
     }
 
-		#tags {
-			#Name = "RT NAT"
-    #}
+		tags {
+			Name = "RT NAT"
+    }
 }	
 	
 	
